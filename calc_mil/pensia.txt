@@ -1,0 +1,67 @@
+<label>Оклад по воинской должности <a href="http://voensud-mo.ru/news/oklady2018" target="_blank">(тарифный разряд по штатной воинской должности) (Приложение № 3)</a></label><br /><select class="spisok form-control" id="spis1" name="spis1" onchange="main()" size="1"><option value="0">Укажите тарифный разряд по воинской должности</option><option value="10400">1 тарифный разряд(стрелок, маскировщик, дорожник)</option><option value="11440">2 тарифный разряд (пулеметчик, снайпер)</option><option value="12480">3 тарифный разряд (старший гранатометчик)</option><option value="13520">4 тарифный разряд (командир танка)</option><option value="15600">5 тарифный разряд (командир отделения)</option><option value="16640">6 тарифный разряд (фельдшер)</option><option value="17680">7 тарифный разряд (заместитель командира взвода)</option><option value="18200">8 тарифный разряд (переводчик)</option><option value="18720">9 тарифный разряд (старшина, старший техник)</option><option value="20800">10 тарифный разряд (командир взвода)</option><option value="21320">11 тарифный разряд (инженер в управлении батальона)</option><option value="21840">12 тарифный разряд (заместитель командира роты)</option><option value="22360">13 тарифный разряд (старший офицер полка)</option><option value="22880">14 тарифный разряд (командир роты (батареи))</option><option value="23400">15 тарифный разряд (офицер в управлении дивизии)</option><option value="23920">16 тарифный разряд (заместитель командира батальона)</option><option value="24400">17 тарифный разряд (начальник разведки)</option><option value="24960">18 тарифный разряд (командир батальона)</option><option value="25480">19 тарифный разряд (офицер в управлении армии)</option><option value="26000">20 тарифный разряд (офицер в управлении командования)</option><option value="26520">21 тарифный разряд (старший офицер в управлении армии)</option><option value="27040">22 тарифный разряд (старший офицер в управлении командования)</option><option value="27560">23 тарифный разряд (командир полка)</option><option value="28080">24 тарифный разряд (начальник отделения в управлении командования)</option><option value="28600">25 тарифный разряд (заместитель командира бригады)</option><option value="29120">26 тарифный разряд (старший офицер ГШ)</option><option value="29640">27 тарифный разряд (старший инспектор в управлении командования)</option><option value="30160">28 тарифный разряд (командир бригады)</option><option value="30680">29 тарифный разряд (заместитель командира дивизии)</option><option value="31200">30 тарифный разряд (заместитель начальника отдела ГШ)</option><option value="31720">31 тарифный разряд (командир дивизии)</option><option value="32240">32 тарифный разряд (командир бригады надводных кораблей)</option><option value="32760">33 тарифный разряд (начальник отдела ГШ)</option><option value="33280">34 тарифный разряд (командир авиационной базы)</option><option value="33800">35 тарифный разряд (командир корпуса)</option><option value="34320">36 тарифный разряд (заместитель начальника УМЦ)</option><option value="34840">37 тарифный разряд (заместитель командующего армией)</option><option value="35360">38 тарифный разряд (заместитель начальника управления ГУ)</option><option value="35880">39 тарифный разряд (командир эскадры кораблей)</option><option value="36400">40 тарифный разряд (первый заместитель командующего армией)</option><option value="36920">41 тарифный разряд (заместитель командующего войсками)</option><option value="37440">42 тарифный разряд (начальник управления ГУ ГШ)</option><option value="37960">43 тарифный разряд (заместитель начальника ВИ МО)</option><option value="38480">44 тарифный разряд (командующий армией)</option><option value="39000">45 тарифный разряд (начальник военного учебно-научного центра)</option><option value="39520">46 тарифный разряд (заместитель главнокомандующего видом ВС)</option><option value="41160">47 тарифный разряд (командующий войсками военного округа)</option><option value="43680">48 тарифный разряд (Главнокомандующий видом ВС)</option><option value="44000">49 тарифный разряд (заместитель МО РФ)</option><option value="45000">50 тарифный разряд (первый заместитель МО РФ)</option></select></div>
+<div class="form-group">
+
+		<label>Оклад <a href="http://voensud-mo.ru/news/oklady2018" target="_blank">по воинскому званию (Приложение № 2)</a></label><br /><select class="spisok form-control" id="spis2" 
+name="spis2" onchange="main()" size="1" style="width: 100%;"><option value="0">Укажите воинское звание</option><option value="5200">Рядовой, матрос</option><option value="5720">Ефрейтор, старший матрос</option><option value="6240">Младший сержант, старшина 2 статьи</option><option value="6760">Сержант, старшина 1 статьи</option><option value="7280">Старший сержант, главный старшина</option><option value="7800">Старшина, главный карабельный старшина</option><option value="8320">Прапорщик, мичман</option><option value="8840">Старший прапорщик, старший мичман</option><option value="9880">Младший лейтенант</option><option value="10400">Лейтенант</option><option value="10920">Старший лейтенант</option><option value="11440">Капитан, капитан-лейтенант</option><option value="11960">Майор, капитан 3 ранга</option><option value="12480">Подполковник, капитан 2 ранга</option><option value="13520">Полковник, капитан 1 ранга</option><option value="20800">Генерал-майор, контр-адмирал</option><option value="22880">Генерал-лейтенант, вице-адмирал</option><option value="26000">Генерал-полковник, адмирал</option><option value="28080">Генерал армии, адмирал флота</option><option value="31200">Маршал Российской Федерации</option></select></div>
+<div class="form-group">
+
+		<label><a href="http://voensud-mo.ru/doc/mil/order/2007/288#p1b" target="_blank">Надбавка за квалификационную категорию летному составу</a></label><br /><select class="spisok form-control" id="spis3" 
+name="spis3" onchange="main()" size="1" style="width: 100%;"><option value="1">Отсутствие квалификационной категории</option><option value="1.15">Летчик (штурман) второго класса, летчик (штурман) - инструктор второго класса</option><option value="1.2">Летчик (штурман) первого класса, летчик (штурман) - инструктор первого класса</option><option value="1.3">Летчик (штурман)-снайпер</option><option value="1.1">Бортовой специалист второго класса</option><option value="1.15">Бортовой специалист первого класса</option><option value="1.2">Бортовой специалист-мастер</option>/option&gt;</select></div>
+<div class="form-group">
+
+		<label>Общая продолжительность службы, <a href="http://voensud-mo.ru/doc/law/1993/4468-1#14" target="_blank">учитываемая для назначения пенсии</a></label><br /><select class="spisok form-control" 
+id="spis4" name="spis4" onchange="main()" size="1" style="width: 100%;"><option value="0">Укажите выслугу лет на пенсию</option><option value="0.50">20 лет - 50 %</option><option value="0.53">21 год - 53 %</option><option value="0.56">22 лет - 56 %</option><option value="0.59">23 лет - 59 %</option><option value="0.62">24 лет - 62 %</option><option value="0.65">25 лет - 65 %</option><option value="0.68">26 лет - 68 %</option><option value="0.71">27 лет - 71 %</option><option value="0.74">28 лет - 74 %</option><option value="0.77">29 лет - 77 %</option><option value="0.80">30 лет - 80 %</option><option value="0.83">31 год - 83 %</option><option value="0.85">32 года или более - 85 %</option></select></div><div class="form-group">
+
+		<label><a href="/doc/gov/decree/2011/1237#pr1" target="_blank">Районный коэффициент</a></label><br /><select class="spisok form-control" id="spis5" 
+name="spis5" onchange="main()" size="1" style="width: 100%;"><option value="1.0">1.0</option><option value="1.15">1.15</option><option value="1.2">1.2</option><option value="1.25">1.25</option><option value="1.3">1.3</option><option value="1.4">1.4</option><option value="1.5">1.5</option><option value="1.6">1.6</option><option value="1.7">1.7</option><option value="1.8">1.8</option><option value="2.0">2.0</option></select></div>
+<div class="form-group">
+
+              <label>Укажите дату, на которую необходимо рассчитать военную пенсию (<a href="http://voensud-mo.ru/pension#Р" target="_blank">см. понижающий коэффициент</a>)</label><br /><select class="spisok form-control" id="spis6" 
+name="spis6" onchange="main()" size="1" style="width: 100%;"><option value="0.5805">с 01.10.2013</option><option value="0.6005">с 01.01.2014</option><option value="0.6212">с 01.01.2015</option><option value="0.6677">с 01.10.2015</option><option value="0.6945">c 01.02.2016</option><option selected="selected" value="0.7223">01.01.2018 год</option><option value="0.7223">2018 год</option><option value="0.7223">2019 год</option><option value="0.7223">2020 год</option><option value="0.7223">2021 год</option><option value="0.8012">2022 год</option><option value="0.8212">2023 год</option><option value="0.8412">2024 год</option><option value="0.8612">2025 год</option><option value="0.9012">2026 год</option><option value="0.9212">2027 год</option><option value="0.9612">2028 год</option><option value="0.9812">2029 год</option><option value="1">2030 год</option></select></div>
+<div class="form-group" style="background: #66CDAA;height: 50px;">
+				<label>Надбавка <a href="http://voensud-mo.ru/doc/mil/order%20/2011/2700#40" target="_blank">за выслугу лет (п. 40)**</a></label><br /><select class="spisok form-control" id="spis7" 
+name="spis7" onchange="main()" size="1" style="width: 100%;"><option value="0">Укажите (надбавка за выслугу лет)</option><option value="0.15">от 5 до 10 лет - 15 %</option><option value="0.20">от 10 до 15 лет - 20 %</option><option value="0.25">от 15 до 20 лет - 25 %</option><option value="0.30">от 20 до 25 лет - 30 %</option><option value="0.40">от 25 лет и более - 40 %</option></select></div>
+<div class="form-group">
+
+
+<label>Надбавка ветерану боевых действий *</label><br /><select class="spisok form-control" id="var" 
+name="war" onchange="main()" size="1" style="width: 100%;"><option value="0">нет</option><option value="1657.68">да (1657,68 руб.)</option></select></div>
+<div class="form-group">
+
+
+
+		
+		<strong><label>ИТОГОВЫЙ РАЗМЕР ПЕНСИИ (руб.)</label><input class="pole2" id="sasa" name="sasa" readonly="readonly" style="width: 100%;" type="text" /></strong></div>
+
+
+
+
+	
+	var spis1 = document.vvodznac.spis1.value;
+	var spis2 = document.vvodznac.spis2.value;
+	var spis3 = document.vvodznac.spis3.value;
+	var spis4 = document.vvodznac.spis4.value;
+	var spis5 = document.vvodznac.spis5.value;
+	var spis6 = document.vvodznac.spis6.value;
+	var spis7 = document.vvodznac.spis7.value;
+        var war = document.vvodznac.war.value;
+	
+	var kf = 0.3 ;
+
+	if (spis4 > 0.64) {
+	  kf = 0.4 ;
+	} 
+	
+	spis1 = parseInt(spis1);
+	spis2 = parseInt(spis2);
+	spis3 = parseFloat(spis3);
+	spis4 = parseFloat(spis4);
+	spis5 = parseFloat(spis5);
+	spis6 = parseFloat(spis6);
+	spis7 = parseFloat(spis7);
+	war = parseFloat(war);
+	
+
+	
+		
+		document.vvodznac.sasa.value = modRound ((((spis1*spis3+spis2)+(spis1*spis3+spis2)*spis7)*spis5)*spis4*spis6 + war , 2)   ;

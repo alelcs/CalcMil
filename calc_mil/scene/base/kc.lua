@@ -1,0 +1,26 @@
+local activityData = {
+	{ factor=0, name="Надбавка за особые достижения" },
+{ factor=0, name="0%"},
+{ factor=5, name="5%"},
+{ factor=10, name="10%"},
+{ factor=15, name="15% второй квалификационный уровень ФП"},
+{ factor=20, name="20%"},
+{ factor=25, name="25%"},
+{ factor=30, name="30% первый квалификационный уровень ФП"},
+{ factor=35, name="35%"},
+{ factor=40, name="40% занимающим ВД доцент" },
+{ factor=45, name="45%"},
+{ factor=50, name="50% проходящим обучение снайперов"},
+{ factor=55, name="55%"},
+{ factor=60, name="60% занимающим ВД профессор"},
+{ factor=65, name="65%"},
+{ factor=70, name="70% высший квалификационный уровень ФП"},
+{ factor=75, name="75%"},
+{ factor=80, name="80% первый спортивный разряд"},
+{ factor=85, name="85%"},
+{ factor=90, name="90% спортивный разряд КМС"},
+{ factor=95, name="95%"},
+{ factor=100, name="100% мастер спорта РФ"},
+}
+
+return activityData;

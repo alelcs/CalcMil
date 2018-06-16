@@ -1,0 +1,26 @@
+local activityData = {
+	{ factor=0, name="Надбавка за особые условия"},
+	{ factor=0, name="0%"},
+	{ factor=5, name="5%"},
+{ factor=10, name="10%"},
+{ factor=15, name="15%"},
+{ factor=20, name="20% "},
+{ factor=25, name="25% "},
+{ factor=30, name="30%"},
+{ factor=35, name="35%"},
+{ factor=40, name="40%"},
+{ factor=45, name="45%"},
+{ factor=50, name="50%"},
+{ factor=55, name="55%"},
+{ factor=60, name="60%"},
+{ factor=65, name="65%"},
+{ factor=70, name="70%"},
+{ factor=75, name="75%"},
+{ factor=80, name="80%"},
+{ factor=85, name="85%"},
+{ factor=90, name="90%"},
+{ factor=95, name="95%"},
+{ factor=100, name="100%"},
+}
+
+return activityData;
