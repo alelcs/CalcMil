@@ -28,8 +28,11 @@ local function summa()
 local dd=spis1*(spis3/100+1)+spis2
     rez = (math.round((((dd)+(dd)*spis7/100)*(spis5/100+1))*spis4*spis6 + war)*100)/100
 	     rez13=rez-(rez)*13/100 --nalog
-
-        babki.text=(math.round(rez).."p.-13%="..math.round(rez13).."p.")
+if (rez==0) or (dd==0) then 
+    babki.text="0p"
+else
+    babki.text=(math.round(rez).."p.-13%="..math.round(rez13).."p.")
+end
 end
 
 -- Touch event listener for background image
@@ -163,8 +166,13 @@ back.isVisible =true
     
 	title = display.newText( "Ваша пенсия составляет:", display.contentCenterX+30, 50, "font/font.ttf", 65 )
 	title:setFillColor( 1 )	-- white
-	babki = display.newText( "0 p", display.contentCenterX, 120, "font/font.ttf", 80 )
+	babki = display.newText( "0 p", display.contentCenterX, 120, native.systemFontBold, 50 )
 	babki:setFillColor( 1 )	-- white
+
+    local lin = display.newLine( 10, 150, 520, 150 )
+            lin:setStrokeColor( 1, 1, 0, 1 )
+            lin.strokeWidth = 3
+    sceneGroup:insert(lin)
 
 	sceneGroup:insert( title )
     sceneGroup:insert( babki )

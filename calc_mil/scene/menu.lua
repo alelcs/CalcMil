@@ -19,7 +19,6 @@ local scene = composer.newScene()
 function scene:create( event )
 	local sceneGroup = self.view
     composer.removeHidden( true )
-	sceneG.isVisible =false
     back.isVisible =false
 	-- Called when the scene's view does not exist.
 		

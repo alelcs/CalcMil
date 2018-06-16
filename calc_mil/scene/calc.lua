@@ -512,9 +512,10 @@ end
 function scene:key(event)
 
     if ( event.keyName == "back" ) or ("b"==event.keyName) then
-
+        if back.isVisible==true then
           -- handle the back key press however you choose
           composer.gotoScene("scene.menu", {effect = "crossFade", time = 500}) 
+      end
           return true
     end
 end

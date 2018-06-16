@@ -42,7 +42,10 @@ function scene:create(event)
         scrollView.y = display.contentCenterY-50
 
         
-	
+	 local norma = display.newImageRect( "img/info.jpg", 500, 2360 )
+    norma.x = cx
+    norma.y = 1200
+    scrollView:insert( norma )
 	-- Выводим результаты
 	------------------------------------------------------------------
 

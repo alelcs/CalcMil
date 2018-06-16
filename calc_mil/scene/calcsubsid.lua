@@ -23,6 +23,14 @@ local K=1.85
             numericField1.text = "0"
             numericField1.isVisible=false
 
+function summa()
+
+        local O=H+D-tonumber(numericField1.text)
+        local P=O*tonumber(numericField2.text)*K
+        title.text = "Размер субсидии за "..O.." кв.м.,\nсоставляет:"
+     babki.text=(math.round((P)).."p.")
+    end
+
 
 function scene:create( event )
 	local sceneGroup = self.view
@@ -49,13 +57,7 @@ function scene:create( event )
 
 	
 -- Touch event listener for background image
-local function summa()
 
-		local O=H+D-tonumber(numericField1.text)
-        local P=O*tonumber(numericField2.text)*K
-        title.text = "Размер субсидии за "..O.." кв.м.,\nсоставляет:"
-	 babki.text=(math.round((P)).."p.")
-	end
 
 
 local function iconListener( event )
@@ -81,7 +83,7 @@ local function iconListener( event )
         button5:setLabel( icons[id]:getLabel() )
         K=data[id].factor
         end       
-        timer.performWithDelay( 10, function() summa(); numericField1.isVisible=true; numericField2.isVisible=true; scrollView:removeSelf(); scrollView = nil; end )
+        timer.performWithDelay( 10, function() summa(); numericField1.isVisible=true; numericField2.isVisible=true; back.isVisible=true; scrollView:removeSelf(); scrollView = nil; end )
     end
     end
     return true
@@ -91,6 +93,7 @@ end
      if ( event.phase == "moved" ) then
         
     elseif ( event.phase == "ended" ) then
+    back.isVisible=false
 numericField1.isVisible=false
 numericField2.isVisible=false
         scrollView = widget.newScrollView
@@ -277,10 +280,14 @@ end
 function scene:key(event)
 
     if ( event.keyName == "back" ) or ("b"==event.keyName) then
+        if back.isVisible==true then
         composer.gotoScene("scene.menu", {effect = "crossFade", time = 500}) 
-        
+        numericField1.isVisible=false
+        numericField2.isVisible=false
+        end
         return true
     end
+
 end
 
 Runtime:addEventListener( "key", scene )
@@ -291,9 +298,9 @@ function scene:show( event )
 	
 	if phase == "will" then
 		numericField1.isVisible=true
-
+        numericField2.isVisible=true
 	elseif phase == "did" then
-		numericField2.isVisible=true
+		
 		
 		-- INSERT code here to make the scene come alive
 		-- e.g. start timers, begin animation, play audio, etc.
@@ -320,8 +327,8 @@ scene:addEventListener( "create", scene )
 scene:addEventListener( "show", scene )
 scene:addEventListener( "hide", scene )
 scene:addEventListener( "destroy", scene )
-    numericField1:addEventListener( "userInput", function() summa(); end )
-    numericField2:addEventListener( "userInput", function() summa(); end  )
+    numericField1:addEventListener( "userInput", function() if numericField1.text~="" then summa(); end; end )
+    numericField2:addEventListener( "userInput", function() if numericField2.text~="" then summa(); end; end  )
 -----------------------------------------------------------------------------------------
 
 return scene
